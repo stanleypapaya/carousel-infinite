@@ -1,0 +1,42 @@
+.imgContainer{
+    height: 180px;
+    width: 320px;
+    border: 5px solid grey;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .images{
+    display: flex;
+    margin-left: -320px;
+}
+  
+  button.active{
+    color: red;
+  }
+
+  .next{
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    color: white;
+    background: rgba(95, 89, 89, 0.5);
+    right: 0;
+    top: 80px;
+    cursor: pointer;
+  }
+
+  .prev{
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    color: white;
+    background: rgba(95, 89, 89, 0.5);
+    left: 0;
+    top: 80px;
+    cursor: pointer;
+  }

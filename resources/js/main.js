@@ -41,6 +41,15 @@ function animate(offset){
     go()
 }
 
+function handleVisibilityChange() {
+    if (document.hidden) {
+      stop()
+    } else {
+      timer()
+    }
+}
+document.addEventListener("visibilitychange", handleVisibilityChange, false)
+
 let numberOfImages = allButtons.length
 timer()
 
